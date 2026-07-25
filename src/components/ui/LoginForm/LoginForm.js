@@ -2,8 +2,44 @@
 
 export default function LoginForm() {
     return (
-        <div>
-            <h1>login form</h1>
+        <div className="w-full">
+            <form>
+                <div className="w-full space-y-3.5">
+                    <div className="flex w-full flex-col gap-2">
+                        <label
+                            htmlFor="your-email"
+                            className="text-base font-medium text-white"
+                        >
+                            Email Address
+                        </label>
+                        <input
+                            type="text"
+                            id="your-email"
+                            placeholder="Enter your email"
+                            className="w-full rounded-lg border border-slate-800 bg-[#010717]/50 px-4 py-[11px] font-normal text-white caret-violet-500 outline-none placeholder:font-light placeholder:text-slate-400 focus:ring-2 focus:ring-violet-500"
+                        />
+                    </div>
+                    <div className="flex w-full flex-col gap-2">
+                        <label
+                            htmlFor="your-password"
+                            className="text-base font-medium text-white"
+                        >
+                            Password
+                        </label>
+                        <input
+                            type="password"
+                            id="your-password"
+                            placeholder="Enter your password"
+                            className="w-full rounded-lg border border-slate-800 bg-[#010717]/50 px-4 py-[11px] font-normal text-white caret-violet-500 outline-none placeholder:font-light placeholder:text-slate-400 focus:ring-2 focus:ring-violet-500"
+                        />
+                    </div>
+                </div>
+                <div className="mt-6 w-full">
+                    <button className="w-full cursor-pointer rounded-lg bg-violet-600 py-[11px] text-base font-medium text-white transition-colors duration-200 ease-linear hover:bg-violet-500">
+                        Continue
+                    </button>
+                </div>
+            </form>
         </div>
     );
 }
