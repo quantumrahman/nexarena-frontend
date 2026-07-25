@@ -1,7 +1,5 @@
+import CreateModule from "@/modules/CreateModule/CreateModule";
+
 export default function CreatePage() {
-    return (
-        <div className="w-full">
-            <h1>Create page</h1>
-        </div>
-    );
+    return <CreateModule />;
 }

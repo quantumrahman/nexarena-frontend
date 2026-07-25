@@ -1,7 +1,5 @@
+import HomeModule from "@/modules/HomeModule/HomeModule";
+
 export default function HomePage() {
-    return (
-        <div className="w-full">
-            <h1>Home page</h1>
-        </div>
-    );
+    return <HomeModule />;
 }
