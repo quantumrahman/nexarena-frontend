@@ -1,9 +1,16 @@
 "use client";
 
+import PageHeading from "@/components/ui/PageHeading/PageHeading";
+import ManageFeature from "@/components/features/ManageFeature/ManageFeature";
+
 export default function ManageModule() {
     return (
-        <div className="w-full">
-            <h1>Manage module</h1>
-        </div>
+        <>
+            <PageHeading
+                title={"Control Your Arenas"}
+                paragraph={"Keep every arena updated and booking-ready"}
+            ></PageHeading>
+            <ManageFeature />
+        </>
     );
 }
