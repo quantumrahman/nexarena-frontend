@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Header() {
     return (
         <header className="fixed top-0 left-0 z-30 w-full px-5 pt-5 md:px-6 md:pt-10 lg:px-7">
-            <div className="mx-auto flex w-full max-w-5xl items-center justify-between rounded-xl border border-slate-900 bg-[#010717]/70 px-4 py-3 backdrop-blur-lg md:px-5 md:py-3">
+            <div className="mx-auto flex w-full max-w-7xl items-center justify-between rounded-xl border border-slate-900 bg-[#010717]/70 px-4 py-3 backdrop-blur-lg md:px-5 md:py-3">
                 <h1 className="text-lg leading-tight font-bold text-white uppercase">
                     <span className="text-violet-500">Nex</span>Arena
                 </h1>
